@@ -1,9 +1,9 @@
 # Calculator-JavaFX
 
-My Java-Fx project is simple calkulator.
-Calkulator make simple calkulations + - * and /.
+My Java-Fx project is simple calculator's.
+Calculators make simple calculation on integers + - * and /.
 
-# Strukture FX aplikation
+# Structure FX application
 
 In Main.class is logic code. Main.class START to FX application. To simple 'fxml' add css, to give it a look.
 Pom.xml is properties file.
