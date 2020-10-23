@@ -3,7 +3,11 @@
 My Java-Fx project is simple calkulator.
 Calkulator make simple calkulations + - * and /.
 
-#Strukture FX aplikation
+# Strukture FX aplikation
 
 In Main.class is logic code. Main.class START to FX application. To simple 'fxml' add css, to give it a look.
 Pom.xml is properties file.
+
+# SceneBuilder
+
+Controller FX are lokated mainController. I worked in SceneBuilder.  
