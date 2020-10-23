@@ -133,6 +133,7 @@ public class mainController {
 					}display.setText(String.valueOf(ans));
 
 				default:
+					System.err.println("Wrong");
 			}
 		}
 	}
