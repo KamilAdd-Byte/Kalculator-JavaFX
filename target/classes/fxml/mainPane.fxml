@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.effect.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
-            minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="450.0"
-            stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/11.0.1"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.responsywnie.Kalkulator.controller.mainController">
+<AnchorPane blendMode="DARKEN" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="445.0" snapToPixel="false" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.responsywnie.Kalkulator.controller.mainController">
    <children>
       <Label prefHeight="113.0" prefWidth="600.0" />
-      <GridPane fx:id="ButtonAction" blendMode="DARKEN" cache="true" cacheHint="SCALE" layoutX="10.0"
-                layoutY="92.0" prefHeight="278.0" prefWidth="430.0">
+      <GridPane fx:id="ButtonAction" cache="true" cacheHint="SCALE" layoutX="10.0" layoutY="92.0" prefHeight="278.0" prefWidth="430.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints fx:id="buttonAction" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -26,32 +24,27 @@
           <RowConstraints maxHeight="58.19999694824219" minHeight="0.0" prefHeight="53.40000915527344" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="six" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="63.0" prefWidth="100.0"
-                    text="6" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Button fx:id="six" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="63.0" prefWidth="100.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <font>
                   <Font size="29.0" />
                </font>
             </Button>
-            <Button fx:id="four" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleButtonAction"
-                    prefHeight="63.0" prefWidth="100.0" text="4" GridPane.rowIndex="1">
+            <Button fx:id="four" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="63.0" prefWidth="100.0" text="4" GridPane.rowIndex="1">
                <font>
                   <Font size="29.0" />
                </font>
             </Button>
-            <Button fx:id="result" layoutX="110.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleButtonAction"
-                    prefHeight="63.0" prefWidth="100.0" text="=" GridPane.rowIndex="3">
+            <Button fx:id="result" layoutX="110.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="63.0" prefWidth="100.0" text="=" GridPane.rowIndex="3">
                <font>
                   <Font size="29.0" />
                </font>
             </Button>
-            <Button fx:id="too" layoutX="110.0" layoutY="71.0" mnemonicParsing="false" onAction="#handleButtonAction"
-                    prefHeight="62.0" prefWidth="100.0" text="2" GridPane.columnIndex="1">
+            <Button fx:id="too" layoutX="110.0" layoutY="71.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="62.0" prefWidth="100.0" text="2" GridPane.columnIndex="1">
                <font>
                   <Font size="29.0" />
                </font>
             </Button>
-            <Button fx:id="eight" layoutX="10.0" layoutY="71.0" mnemonicParsing="false" onAction="#handleButtonAction"
-                    prefHeight="63.0" prefWidth="100.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Button fx:id="eight" layoutX="10.0" layoutY="71.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="63.0" prefWidth="100.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <font>
                   <Font size="29.0" />
                </font>
@@ -66,7 +59,7 @@
                   <Font size="29.0" />
                </font>
             </Button>
-            <Button fx:id="five" layoutX="10.0" layoutY="71.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="54.0" prefWidth="100.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Button fx:id="five" layoutX="10.0" layoutY="71.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="62.0" prefWidth="100.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <font>
                   <Font size="29.0" />
                </font>
@@ -112,17 +105,19 @@
                </font>
             </Button>
          </children>
-         <effect>
-            <Blend mode="MULTIPLY">
-               <topInput>
-                  <ColorAdjust />
-               </topInput>
-            </Blend>
-         </effect>
       </GridPane>
-      <TextField fx:id="display" alignment="BASELINE_RIGHT" editable="false" layoutX="-1.0" layoutY="2.0" prefHeight="90.0" prefWidth="450.0" promptText="0">
+      <TextField fx:id="display" alignment="BASELINE_RIGHT" editable="false" layoutX="11.0" layoutY="2.0" prefHeight="90.0" prefWidth="424.0" promptText="simple calculate">
          <font>
-            <Font name="Comic Sans MS" size="29.0" />
+            <Font size="36.0" />
          </font></TextField>
    </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <effect>
+      <Blend mode="BLUE" />
+   </effect>
 </AnchorPane>

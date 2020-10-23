@@ -1,7 +1,15 @@
-.button{
-    -fx-font-family: "Courier New";
-
+.body {
+    -fx-effect: s;
 }
+.button {
+    -fx-border-color: #e77a03;
+    -fx-background-color: #ececec;
+    -fx-highlight-text-fill: true;
+}
+.
 .choice-box{
-    -fx-animated: "";
+    -fx-animated: true;
+    -fx-background-color: #63d220;
 }
+
+

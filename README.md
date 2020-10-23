@@ -10,4 +10,14 @@ Pom.xml is properties file.
 
 # SceneBuilder
 
-Controller FX are lokated mainController. I worked in SceneBuilder.  
+Controller FX are lokated mainController. I worked in SceneBuilder.
+
+# Inspiration and linked
+
+ https://www.teaching-materials.org/css3-fx/#slide15
+ https://www.w3schools.com/css/css_background.asp 
+ 
+ Learn FX
+ 
+ https://www.javastart.pl
+ (course JAVA -> fantastic teacher)
