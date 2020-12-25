@@ -127,7 +127,7 @@ public class mainController {
 				case 4:
                     ans = 0f;
 					try {
-						ans = data / secondOperand.floatValue();
+						ans = data /(int) secondOperand.floatValue();
 					}catch (Exception e){
 						display.setText("Błąd");
 					}display.setText(String.valueOf(ans));

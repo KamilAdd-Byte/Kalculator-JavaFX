@@ -3,8 +3,30 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="22b963b7-849c-4c6d-b55a-9a523132afe4" name="Default Changelist" comment="" />
+    <list default="true" id="22b963b7-849c-4c6d-b55a-9a523132afe4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/responsywnie/Kalkulator/controller/mainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/responsywnie/Kalkulator/controller/mainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/responsywnie/Kalkulator/controller/mainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/responsywnie/Kalkulator/controller/mainController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="TODO_SCOPE" value="Module 'Kalkulator'" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -72,33 +95,45 @@
       <updated>1603478190589</updated>
       <workItem from="1603478191743" duration="4805000" />
       <workItem from="1603483118008" duration="464000" />
-      <workItem from="1603483595201" duration="758000" />
+      <workItem from="1603483595201" duration="929000" />
+      <workItem from="1603988587823" duration="813000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="743" y="283" width="424" height="505" key="FileChooserDialogImpl" timestamp="1603482482345">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="743" y="283" width="424" height="505" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1603482482345" />
-    <state width="1878" height="295" key="GridCell.Tab.0.bottom" timestamp="1603484148510">
+    <state width="1878" height="295" key="GridCell.Tab.0.bottom" timestamp="1603989400513">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603484148510" />
-    <state width="1878" height="295" key="GridCell.Tab.0.center" timestamp="1603484148509">
+    <state width="1878" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603989400513" />
+    <state width="1878" height="295" key="GridCell.Tab.0.center" timestamp="1603989400512">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603484148509" />
-    <state width="1878" height="295" key="GridCell.Tab.0.left" timestamp="1603484148508">
+    <state width="1878" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603989400512" />
+    <state width="1878" height="295" key="GridCell.Tab.0.left" timestamp="1603989400512">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603484148508" />
-    <state width="1878" height="295" key="GridCell.Tab.0.right" timestamp="1603484148509">
+    <state width="1878" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603989400512" />
+    <state width="1878" height="295" key="GridCell.Tab.0.right" timestamp="1603989400513">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603484148509" />
+    <state width="1878" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603989400513" />
   </component>
 </project>
